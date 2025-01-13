@@ -26,23 +26,23 @@ require_once 'Animal.php';
     // $choA = new Dog();
     // $choA->makeSound("GÂu Gâu");
 
-    class Dog extends Animal{
+    // class Dog extends Animal{
 
-        public function __construct($place)
-        {
-            $this->place = $place;
-        }
-        public function eat(){
-            echo "Ăn Tạp";
-        }
-        public function makeSound($sound)
-        {
-            echo $sound;
-        }
-    }    
+    //     public function __construct($place)
+    //     {
+    //         $this->place = $place;
+    //     }
+    //     public function eat(){
+    //         echo "Ăn Tạp";
+    //     }
+    //     public function makeSound($sound)
+    //     {
+    //         echo $sound;
+    //     }
+    // }    
 
-    $dogA = new Dog("Nhà");
-    $dogA->makeSound("Gâu");
+    // $dogA = new Dog("Nhà");
+    // $dogA->makeSound("Gâu");
 
 
 ?>
