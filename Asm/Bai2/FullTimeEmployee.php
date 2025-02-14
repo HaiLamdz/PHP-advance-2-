@@ -2,7 +2,7 @@
     class FullTimeEmployee extends Employee{
         protected $allowance;
 
-        public function setAllowance(){
+        public function setAllowance(){ // phụ cấpcấp
             $timeWork = date("Y") - $this->startYear;
             if($timeWork < 2){
                 $this->allowance = 0;

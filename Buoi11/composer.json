@@ -1,0 +1,17 @@
+{
+    "name": "hai-lamhai-lam/buoi11",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HảiLamdz",
+            "email": "vuhailam2112@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6"
+    }
+}

@@ -6,7 +6,7 @@
      
         public function __construct($name, $startYear, $position, $hoursWork, $hourlyRate)
         {
-            parent::__construct($name, $startYear, $position, 0);
+            parent::__construct($name, $startYear, $position, $salary = 0);
             $this->hoursWork = $hoursWork;
             $this->hourlyRate = $hourlyRate;
             // $this->getSalary();
@@ -20,9 +20,6 @@
             }
                 return "Tổng Lương Của " . $this->name . " là: " . number_format($total) . "vnđ";
         }
-
-
-
     }
 
 ?>

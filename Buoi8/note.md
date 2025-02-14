@@ -5,7 +5,7 @@ Giúp cài đặt, cập nhật, xóa các thư viện trong một dự án qua 
 ## Composer (package manager) là trình quản lý gói cảu PHP
 
 composer init: khởi tạo dự án
-composer repuire tenthuvien: Cài đặt thư viện mới (composer repuire bootstrap)
+composer require tenthuvien: Cài đặt thư viện mới (composer require bootstrap)
 composer update: Cập nhập toàn bộ thư viện trong dự án
 composer update tenthuvien: Cập nhập 1 thư viện cụ thể
 composer remove tenthuvien: Xóa thư viện
